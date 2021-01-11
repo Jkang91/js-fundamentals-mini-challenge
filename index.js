@@ -32,11 +32,10 @@ function drinkWater(num){
   console.log("Man I sure am thirsty")
   num -= 1
   console.log("Ahh that hits the spot")
-  console.log(num)
+  return (num)
 }
 
-drinkWater(3)
-// console.log(drinkWater(12))
+console.log(drinkWater(12))
 // // => "Man I sure am thirsty"
 // // => "Ahh that hits the spot"
 // // => 11
