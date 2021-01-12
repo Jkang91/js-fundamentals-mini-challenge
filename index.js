@@ -67,7 +67,7 @@ console.log(sameSameButDifferent(123, "123"))
 console.log(sameSameButDifferent(5, 7)) 
 // // => "different"
 
-// console.log(sameSameButDifferent(123, "122")) 
+console.log(sameSameButDifferent(123, "122")) 
 // // => "different"
 console.log("%c----------", "color: red") 
 
